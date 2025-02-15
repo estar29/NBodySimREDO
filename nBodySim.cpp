@@ -11,9 +11,18 @@
 #include <chrono>
 #include <vector>
 
-// Vector that stores all a particle's variables.
-double* particle() {
-    NULL;
-}
+// Global variables
+double gravity = 0.000000000
+
+using namespace std;
+
+// Struct to hold particle's attributes.
+struct particle {
+    double mass;
+    // 3 element arrays to hold the x, y, z components.
+    double[] position = new double[3];
+    double velocity[] = new double[3];
+    double force[] = new double[3]; 
+};
 
 // Function for initializing a particles attributes.
